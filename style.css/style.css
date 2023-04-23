@@ -1,0 +1,56 @@
+
+.navbar-brand{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;
+}
+.jumbotron{
+    background-color: #A2D9FF;
+}
+.jumbotron img{
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.lead{
+    font-family: 'Delicious Handrawn', cursive;
+    color: blue;
+    
+}
+.display-4
+{
+    font-family: 'Delicious Handrawn', cursive;
+    color: darksalmon;
+}
+.col h2{
+    font-family: 'Delicious Handrawn', cursive;
+    color: darksalmon;
+    font-size: 35px;   
+}
+.font-bold{
+    font-size: 25px;
+    font-family: 'Delicious Handrawn', cursive;
+    color: darksalmon;
+
+}
+.col-4{
+    font-size: 20px;
+    color:blue;
+}
+#project {
+    background-color: #A2D9FF;
+}
+
+.footer{
+    font-size: 18px;
+    color: azure;
+    background: linear-gradient(red,blue);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover
+{
+  color: aquamarine;
+}
