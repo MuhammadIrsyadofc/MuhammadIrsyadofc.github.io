@@ -9,7 +9,14 @@
 .jumbotron img{
     border: 2px solid blue;
     border-radius: 50%;
-    margin-top: 30px;
+    margin-top: 80px;
+
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .lead{
     font-family: 'Delicious Handrawn', cursive;
