@@ -21,7 +21,6 @@
     left: 0;
     right: 0;
     z-index: 999;
-    cursor: pointer;
 }
 .lead{
     font-family: 'Delicious Handrawn', cursive;
@@ -35,52 +34,18 @@
 }
 .col h2{
     font-family: 'Delicious Handrawn', cursive;
-    color: rgba(9, 193, 123,0.5);
+    color: darksalmon;
     font-size: 35px;   
 }
 .font-bold{
     font-size: 25px;
     font-family: 'Delicious Handrawn', cursive;
-    color: rgba(9, 193, 123,0.5);
+    color: darksalmon;
 
 }
-.container-project{
-    background:linear-gradient(salmon,orange,rgb(98, 98, 147)) ;
-    width: 500px;
-    margin: -10px 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: relative;
-}
-.overlaping-1{
-    position: relative;
-    top: -200px;
-    left: 220px;
-}
-.overlaping-1 img{
-    border: 2px solid blue;
-    border-radius: 50%;
-}
-.overlaping-2{
-    position: relative;
-    top: -100px;
-    left: 220px;
-}
-.overlaping-2 img{
-    border: 2px solid blue;
-    border-radius: 50%;
-}
-.overlaping-3{
-    position: relative;
-    top: -290px;
-    left: 200px;
-}
-
-.overlaping-3 img{
-    border: 2px solid blue;
-    border-radius: 50%;
+.col-4{
+    font-size: 20px;
+    color:blue;
 }
 #project {
     background-color: #A2D9FF;
@@ -100,4 +65,3 @@ a:hover
 {
   color: aquamarine;
 }
-
