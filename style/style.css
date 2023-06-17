@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.collapse{
+    background-image: url(../nahil-naseer-xljtGZ2-P3Y-unsplash.jpg);
+}
+.nav-link.active{
+    background-color: burlywood;
+    margin-right: 10px;
+}
+.navbar-nav{
+    background-image: linear-gradient(rgb(210, 207, 202),rgb(152, 152, 190));
+}
+.jumbotron{
+    background-image: url(../walpaper\ pemograman.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -0px 0px;
+    background-attachment: fixed;
+}
+.jumbotron img{
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+.about{
+    background-image: linear-gradient(darkcyan,darkgrey);
+}
+
+#project {
+    background-color: #A2D9FF;
+}
+.project {
+    background-image: linear-gradient(white,salmon,lemonChiffon);
+}
+
+.sertifikat{
+    background-image: linear-gradient(darkgrey,lightblue,white);
+}
+@media only screen and (max-width:576px){
+    .sertifikat{
+        text-align: center;
+    }
+}
+
+/* awal image gallery */
+.container-image-gallery{
+    max-width: 95vw;
+    width: calc(100% - 0rem);
+    margin: 0px auto;
+    background-image: url(pattern.png);
+    background-size: cover;
+    padding: 20px;
+}
+.parent-img-gallery {
+    max-width: 800px;
+    width: calc(100% - 1rem);
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+    opacity: 1;
+    transition: all 500ms ease 0s;
+}
+.container-image-gallery .about p{
+    text-align: center;
+    color: navy;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+.parent-img-gallery:hover{
+    opacity: 0.9;
+}
+.img-gallery{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.img-gallery img{
+    margin: 2px;
+    border-radius: 0px 35px 0px 35px;
+    border-top: 3px solid orange;
+    border-left: 3px solid orange;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    transition: all 1s ease-out 0s;
+}
+.img-gallery img:hover{
+    transform: scale(1.2) translateY(-3px);
+    border-radius: 35px 0px 35px 0px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid orange;
+    border-bottom: 4px solid orange;
+}
+/* tutup image gallery */
+
+.sertifikat img{
+    border: 2px solid navy;
+}
+.footer{
+    font-size: 18px;
+    color: azure;
+    background: linear-gradient(red,blue);
+    text-align: center;
+}
+
+
+.contact{
+  background-image: url(../nahil-naseer-xljtGZ2-P3Y-unsplash.jpg);
+  padding: 10px;
+  border-top: 5px solid orange;
+}
+.contact h2{
+    color: white;
+}
+.contact .form-check-label{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover
+{
+  color: aquamarine;
+}
+.footer{
+    margin-top: -25px;
+    margin-bottom: 0px;
+    border-bottom: 5px solid orange;
+}
